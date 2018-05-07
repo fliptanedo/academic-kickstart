@@ -2,6 +2,26 @@
 
 This started as a fork of George Cushen's **Academic** theme for Hugo (May 2018). I'm tweaking the style and will try to annotate the large edits here. Atom seems to have GitHub integration, but it doesn't work for me. I'll use the GitHub client separately.
 
+* Added in `static/css/` folder: custom CSS
+  * `cryptedmail.css` for javascript e-mail
+  * `flip2018.css` text styles
+  * `flip2018layout.css` footer bar
+  * `flipaboutme.css` revised 'about me'
+  * `iconlist.css` for lists of icons
+* Added in `data` folder
+  * `fonts/flipfont.toml`
+  * `themes/fliptheme.toml`
+* Added `layouts` folder
+  * `layouts/partials`
+    * `/widgets`
+    * `footer_container.html`
+    * `head_custom.html`
+    * `navbar.html`
+  * `layouts/shortcodes`
+    * `flipemail.html`
+    * `twitter.html`
+
+
 # Academic Kickstart
 
 **Academic** is a framework to help you create a beautiful website quickly. Perfect for personal, student, or academic websites. [Check out the latest demo](https://themes.gohugo.io/theme/academic/) of what you'll get in less than 10 minutes or [view the documentation](https://sourcethemes.com/academic/docs/).

@@ -1,0 +1,58 @@
+{{ $page := .page }}
+
+<!-- Custom widget -->
+<div class="row">
+  {{ if $page.Title }}
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="col-xs-12 col-md-8">
+    <!--  -->
+    {{ range $page.Params.university }}
+      <div class="row">
+        <div class = "col-xs-12 col-md-8">
+          <b>
+            {{  .name  }}</b><span class="comment">,
+          {{  .place  }}</span>
+          <br />
+          <small>
+            {{  if .name_parenthesis  }}
+             <i>{{  .name_parenthesis  }}</i><br />
+            {{  end  }}
+            {{  .degree  }}
+              {{  if .year  }}
+                ({{  .year  }})
+              {{  end  }}
+              {{  if .degree2  }}
+              <br \>
+                {{  .degree2  }}
+              {{  end  }}
+              {{  if .year2  }}
+                ({{  .year2  }})
+              {{  end  }}
+              </small>
+              {{  if .advisor  }}
+                <!-- <br />
+                <span class="comment" style="font-size:.9rem;">
+                  Advisor: {{  .advisor  }}
+                </span> -->
+              {{  end  }}
+        </div>
+        <div class = "col-xs-12 col-md-4">
+          {{  .start  }} - {{  .end  }}
+          <br />
+          <br />
+        </div>
+      </div>
+    {{ end }}
+    <!--  -->
+    {{ $page.Content }}
+  </div>
+  {{ else }}
+  <!-- IGNORE, THIS PAGE WILL HAVE A TITLE -->
+  <div class="col-md-12">
+    {{ $page.Content }}
+  </div>
+  {{ end }}
+</div>
