@@ -1,6 +1,6 @@
 # Flip's Notes
 
-This started as a fork of George Cushen's **Academic** theme for Hugo (May 2018). I'm tweaking the style and will try to annotate the large edits here. Test. Test
+This started as a fork of George Cushen's **Academic** theme for Hugo (May 2018). I'm tweaking the style and will try to annotate the large edits here. How do I get GitHUb?
 
 # Academic Kickstart
 
