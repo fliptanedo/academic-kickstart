@@ -20,6 +20,7 @@ This started as a fork of George Cushen's **Academic** theme for Hugo (May 2018)
   * `layouts/shortcodes`
     * `flipemail.html`
     * `twitter.html`
+* **Checkpoint**: need to modify about template
 
 
 # Academic Kickstart
