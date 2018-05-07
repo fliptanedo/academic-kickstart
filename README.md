@@ -1,8 +1,6 @@
 # Flip's Notes
 
-This started as a fork of George Cushen's **Academic** theme for Hugo (May 2018). I'm tweaking the style and will try to annotate the large edits here. How do I get GitHub to sync with Atom?? The Atom GitHub tab doesn't work. This is weird. Why won't the Git thing work.
-
-This is now changed. But nuttin is updating GitHub.
+This started as a fork of George Cushen's **Academic** theme for Hugo (May 2018). I'm tweaking the style and will try to annotate the large edits here. Atom seems to have GitHub integration, but it doesn't work for me. I'll use the GitHub client separately.
 
 # Academic Kickstart
 
