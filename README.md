@@ -20,7 +20,10 @@ This started as a fork of George Cushen's **Academic** theme for Hugo (May 2018)
   * `layouts/shortcodes`
     * `flipemail.html`
     * `twitter.html`
-* **Checkpoint**: need to modify about template
+
+
+* **Checkpoint**: footer problem
+  * In Safari, there's some intermediate large size where the botbar1 horizontal gray line has the wrong vertical alignment. This only shows up in Safari. The transition occurs roughly when the font size changes from font_size to font_size_small. However I can't figure out how to fix it. I may need to rebuild this from scratch, or at least play with an empty page.
 
 
 # Academic Kickstart
